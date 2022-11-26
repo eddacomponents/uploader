@@ -1,0 +1,31 @@
+{
+  "name": "eddasistemas/uploader",
+  "description": "It is a easy PHP upload manager for images, files and media in your application",
+  "keywords": [
+    "Edda Sistemas",
+    "upload",
+    "image upload",
+    "file upload",
+    "media upload"
+  ],
+  "homepage": "http://www.eddasistemas.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rafael Oliveira",
+      "email": "rafael.oliveira@eddasistemas.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-exif": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "EddaSistemas\\Uploader\\": "src"
+    }
+  }
+}
