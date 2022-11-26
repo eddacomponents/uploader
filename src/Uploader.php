@@ -1,6 +1,6 @@
 <?php
 
-namespace EddaSistemas\Uploader;
+namespace EddaComponents\Uploader;
 
 /**
  * Class CoffeeCode Uploader
